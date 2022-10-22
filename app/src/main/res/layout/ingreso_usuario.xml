@@ -6,21 +6,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="#FF731D"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="10dp"
         android:layout_weight="1"
         android:background="#ECDAB8"
         android:orientation="vertical">
 
 
-
-
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="0dp"
+
             android:layout_weight="1"
             android:background="#ECDAB8"
             android:orientation="vertical">
@@ -31,22 +32,22 @@
                 android:layout_height="wrap_content"
                 android:text="Clientes"
                 android:textAlignment="center"
-                android:textSize="50dp"
+                android:textSize="45dp"
                 android:textStyle="bold" />
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="46dp"
                 android:layout_margin="10dp"
                 android:src="@drawable/clientes"></ImageView>
 
 
-
-
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_margin="10dp"
             android:layout_weight="1"
             android:background="#ECDAB8"
             android:orientation="vertical">
@@ -55,38 +56,41 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ingrese usuario:"
+                android:text="Ingrese usuario:"
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/txtusuario"
-                android:layout_width="150dp"
-                android:layout_height="40dp"
-                android:layout_gravity="center_horizontal"
-                >
+                android:layout_width="200dp"
+                android:layout_height="36dp"
+                android:hint="usuario"
+                android:layout_gravity="center_horizontal">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="contraseña:"
+                android:text="Ingrese contraseña:"
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/txt_password"
-                android:layout_width="150dp"
-                android:layout_height="34dp"
-                android:layout_gravity="center_horizontal"
-                >
+                android:layout_width="200dp"
+                android:layout_height="36dp"
+                android:hint="contraseña"
+                android:layout_gravity="center_horizontal">
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="150dp"
-                android:layout_height="60dp"
-                android:text="Button"
-                android:layout_gravity="center_horizontal"/>
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/orange"
+                android:textColor="@color/beige"
+                android:text="Ingresar" />
 
         </LinearLayout>
 
@@ -97,7 +101,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#9A9E84"
+        android:background="#ECDAB8"
+        android:layout_margin="10dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -112,54 +117,57 @@
                 android:layout_height="wrap_content"
                 android:text="Dueños"
                 android:textAlignment="center"
-                android:textSize="50dp"
+                android:textSize="45dp"
                 android:textStyle="bold" />
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/dueño"
-                android:layout_margin="10dp"
-
+                android:layout_height="46dp"
+                android:src="@drawable/dueño"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="5dp"
             android:layout_weight="1"
-            android:background="#9A9E84"
+            android:background="#ECDAB8"
+            android:layout_margin="10dp"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ingrese usuario:"
+                android:text="Ingrese usuario:"
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
             <EditText
-                android:layout_width="150dp"
-                android:layout_height="40dp"
+                android:layout_width="200dp"
+                android:layout_height="36dp"
+                android:hint="usuario"
                 android:layout_gravity="center_horizontal"></EditText>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="contraseña:"
+                android:text="Ingrese contraseña:"
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
             <EditText
-                android:layout_width="150dp"
-                android:layout_height="34dp"
+                android:layout_width="200dp"
+                android:layout_height="36dp"
+                android:hint="contraseña"
                 android:layout_gravity="center_horizontal"></EditText>
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="150dp"
-                android:layout_height="70dp"
-                android:text="Button"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/orange"
+                android:textColor="@color/beige"
+                android:text="Ingresar"
                 android:layout_gravity="center_horizontal"
                 />
 

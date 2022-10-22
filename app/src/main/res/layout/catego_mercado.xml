@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="#FF731D"
     android:orientation="vertical">
 
     <LinearLayout
@@ -13,21 +14,23 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="#ECDAB8"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        >
 
         <ImageView
             android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/frutas_">
+            android:layout_height="match_parent"
+            android:src="@drawable/frutas_"/>
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="frutas y verduras"
+            android:layout_height="match_parent"
+            android:text="Frutas y Verduras"
             android:layout_gravity="center_vertical"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:textSize="30dp"
-            android:textStyle="bold">
+            android:textStyle="bold"/>
 
 
     </LinearLayout>
@@ -35,14 +38,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="16dp"
         android:layout_weight="1"
-        android:background="#FFFFFF"
+        android:background="#ECDAB8"
         android:orientation="horizontal">
 
         <ImageView
             android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/carne">
+            android:layout_height="match_parent"
+            android:src="@drawable/carne" />
 
         <TextView
             android:layout_width="match_parent"
@@ -51,48 +55,68 @@
             android:layout_margin="20dp"
             android:text="Carnes"
             android:textSize="30dp"
-            android:textStyle="bold">
+            android:textStyle="bold" />
 
 
     </LinearLayout>
-        <LinearLayout
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:background="#ECDAB8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/hogar" />
+
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="#ECDAB8"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:text="Cuidado del hogar"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:src="@drawable/hogar">
+    </LinearLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Cuidado del hogar"
-                android:layout_gravity="center_vertical"
-                android:layout_margin="20dp"
-                android:textSize="30dp"
-                android:textStyle="bold">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:background="#ECDAB8"
+        android:orientation="horizontal">
 
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="141dp"
+            android:src="@drawable/despensa" />
 
-
-
-        </LinearLayout>
-        <LinearLayout
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="#ECDAB8"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:text="Despensa"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
 
-        </LinearLayout>
-
-
-
-
+    </LinearLayout>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/beige"
+        android:textColor="@color/orange"
+        android:text="comprar" />
 
 </LinearLayout>
 
