@@ -2,5 +2,6 @@
     <string name="app_name">appMovilMisionTic</string>
     <string name="txt_boton">login</string>
     <string name="txt_buton">buy</string>
+    <string name="minimarket">Minimarket</string>
 
 </resources>
