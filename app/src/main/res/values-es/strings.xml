@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">appMovilMisionTic</string>
+    <string name="txv_vista1">MiniMarket</string>
+    <string name="txv_bienvenido">Bienvenido</string>
+    <string name="txt_button">Empezar</string>
+    <string name="txv_vista2">Clientes</string>
+    <string name="txt_user">Usuario</string>
+    <string name="edit_user">ingrese su usuario</string>
+    <string name="txt_clave">Contraseña</string>
+    <string name="edit_clave">ingrese su contraseña</string>
+    <string name="txt_button2">Ingrese</string>
+    <string name="txv_cat1">Frutas y Verdurass</string>
+    <string name="txv_cat2">Carnes</string>
+    <string name="txv_cat3">Cuidado del hogar</string>
+    <string name="txv_cat4">Despensa</string>
+    <string name="txt_button3">Comprar</string>
+
+
+
+
+
+</resources>

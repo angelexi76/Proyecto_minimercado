@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">appMovilMisionTic</string>
+    <string name="txv_vista1">Supérette</string>
+    <string name="txv_bienvenido">Bienvenue</string>
+    <string name="txt_button">début</string>
+    <string name="txv_vista2">clientes</string>
+    <string name="txt_user">utilisateurs</string>
+    <string name="edit_user">insérez votre utilisateur</string>
+    <string name="txt_clave">Mot de passe</string>
+    <string name="edit_clave">insérez votre mot de passe</string>
+    <string name="txt_button2">connexion</string>
+    <string name="txv_cat1">Fruits et légumes</string>
+    <string name="txv_cat2">Viandes</string>
+    <string name="txv_cat3">limpieza</string>
+    <string name="txv_cat4">Haricots secs</string>
+    <string name="txt_button3">Acheter</string>
+
+
+
+
+
+</resources>
