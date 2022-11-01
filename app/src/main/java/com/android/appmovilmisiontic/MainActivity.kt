@@ -13,19 +13,17 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    fun login1(btnlogin1:View){
+    fun login(button:View){
 
-        val ingreso1=Intent(this,ingreso_usuario::class.java)
-        startActivity(ingreso1)
-    }
-
-    fun login(view: View) {
-        val ingreso=Intent(this,ingreso_usuario::class.java)
+        val ingresoApp=Intent(this,ingreso_usuario::class.java)
         startActivity(ingreso)
     }
 
 
-}
+
+
+
+
 
 class ingreso_usuario {
 

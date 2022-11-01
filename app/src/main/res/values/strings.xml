@@ -1,7 +1,22 @@
 <resources>
     <string name="app_name">appMovilMisionTic</string>
-    <string name="txt_boton">login</string>
-    <string name="txt_buton">buy</string>
-    <string name="minimarket">Minimarket</string>
+    <string name="txv_vista1">MiniMarket</string>
+    <string name="txv_bienvenido">Welcome</string>
+    <string name="txt_button">start</string>
+    <string name="txv_vista2">customers</string>
+    <string name="txt_user">User</string>
+    <string name="edit_user">insert your user</string>
+    <string name="txt_clave">Password</string>
+    <string name="edit_clave">insert your password</string>
+    <string name="txt_button2">login</string>
+    <string name="txv_cat1">Fruits and Vegetables</string>
+    <string name="txv_cat2">Meats</string>
+    <string name="txv_cat3">Home Care</string>
+    <string name="txv_cat4">Dry Beans</string>
+    <string name="txt_button3">buy</string>
+
+
+
+
 
 </resources>
