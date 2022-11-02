@@ -3,7 +3,7 @@
     <string name="txv_vista1">Supérette</string>
     <string name="txv_bienvenido">Bienvenue</string>
     <string name="txt_button">début</string>
-    <string name="txv_vista2">clientes</string>
+    <string name="txv_vista2">Cliente</string>
     <string name="txt_user">utilisateurs</string>
     <string name="edit_user">insérez votre utilisateur</string>
     <string name="txt_clave">Mot de passe</string>
