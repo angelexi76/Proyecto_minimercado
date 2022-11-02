@@ -19,7 +19,7 @@
         <TextView
 
             android:layout_width="match_parent"
-            android:layout_height="103dp"
+            android:layout_height="match_parent"
             android:text="@string/txv_vista1"
             android:textAlignment="center"
             android:textSize="70dp"
@@ -54,8 +54,8 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="330dp"
+            android:layout_width="394dp"
+            android:layout_height="378dp"
             android:layout_marginTop="1dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/img_can" />
@@ -69,8 +69,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:backgroundTint="@color/beige"
-        android:textColor="@color/orange"
-        android:text="@string/txt_button" />
+        android:onClick="start"
+        android:text="@string/txt_button"
+        android:textColor="@color/orange" />
 
 
 </LinearLayout>
