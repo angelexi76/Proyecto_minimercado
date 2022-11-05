@@ -48,6 +48,7 @@
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="74dp"
+        android:background="@color/beige"
         app:srcCompat="@drawable/img_can" />
 
     <LinearLayout
