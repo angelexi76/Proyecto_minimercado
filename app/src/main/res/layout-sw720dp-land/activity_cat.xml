@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="#FF731D"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="16dp"
         android:layout_weight="1"
         android:background="#ECDAB8"
-        android:orientation="horizontal"
-        android:layout_margin="16dp"
-        >
+        android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="150dp"
+            android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:src="@drawable/img2"/>
+            android:src="@drawable/img2" />
 
         <TextView
             android:layout_width="match_parent"
@@ -30,7 +28,7 @@
             android:layout_marginStart="10dp"
             android:text="@string/txv_cat1"
             android:textColor="@color/orange"
-            android:textSize="30sp"
+            android:textSize="70sp"
             android:textStyle="bold" />
 
 
@@ -45,7 +43,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="150dp"
+            android:layout_width="300dp"
             android:layout_height="match_parent"
             android:src="@drawable/carne" />
 
@@ -54,9 +52,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="10dp"
-            android:textColor="@color/orange"
             android:text="@string/txv_cat2"
-            android:textSize="30sp"
+            android:textColor="@color/orange"
+            android:textSize="70sp"
             android:textStyle="bold" />
 
 
@@ -71,7 +69,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="150dp"
+            android:layout_width="300dp"
             android:layout_height="match_parent"
             android:src="@drawable/img4" />
 
@@ -80,9 +78,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="10dp"
-            android:textColor="@color/orange"
             android:text="@string/txv_cat3"
-            android:textSize="30sp"
+            android:textColor="@color/orange"
+            android:textSize="70sp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -96,7 +94,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="141dp"
+            android:layout_width="291dp"
             android:layout_height="match_parent"
             android:layout_marginStart="12dp"
             android:src="@drawable/img5" />
@@ -106,23 +104,24 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="10dp"
-            android:textColor="@color/orange"
             android:text="@string/txv_cat4"
-            android:textSize="30sp"
+            android:textColor="@color/orange"
+            android:textSize="70sp"
             android:textStyle="bold" />
 
 
     </LinearLayout>
+
     <Button
-        android:id="@+id/button2"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/log"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="5dp"
         android:backgroundTint="@color/beige"
+        android:text="@string/txt_button3"
         android:textColor="@color/orange"
-        android:textSize="10sp"
-        android:text="@string/txt_button3" />
+        android:textSize="40sp" />
 
 </LinearLayout>
 

@@ -65,14 +65,15 @@
 
     <Button
 
+        android:id="@+id/start"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="35dp"
         android:backgroundTint="@color/beige"
         android:text="@string/txt_button"
-        android:textSize="30sp"
-        android:textColor="@color/orange" />
+        android:textColor="@color/orange"
+        android:textSize="30sp" />
 
 
 </LinearLayout>

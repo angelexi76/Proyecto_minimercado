@@ -18,7 +18,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="300dp"
+            android:layout_width="250dp"
             android:layout_height="match_parent"
             android:src="@drawable/img2" />
 
@@ -29,7 +29,7 @@
             android:layout_marginStart="10dp"
             android:text="@string/txv_cat1"
             android:textColor="@color/orange"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
 
@@ -44,7 +44,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="300dp"
+            android:layout_width="250dp"
             android:layout_height="match_parent"
             android:src="@drawable/carne">
 
@@ -55,10 +55,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="100dp"
+            android:layout_marginStart="10dp"
             android:text="@string/txv_cat2"
             android:textColor="@color/orange"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
 
@@ -73,7 +73,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="302dp"
+            android:layout_width="250dp"
             android:layout_height="match_parent"
             android:src="@drawable/img4" />
 
@@ -81,10 +81,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="100dp"
+            android:layout_marginStart="10dp"
             android:textColor="@color/orange"
             android:text="@string/txv_cat3"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -98,7 +98,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="290dp"
+            android:layout_width="240dp"
             android:layout_height="match_parent"
             android:layout_marginStart="12dp"
             android:src="@drawable/img5" />
@@ -107,18 +107,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="100dp"
+            android:layout_marginStart="10dp"
             android:textColor="@color/orange"
             android:text="@string/txv_cat4"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="530dp"
+        android:id="@+id/log"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="5dp"
