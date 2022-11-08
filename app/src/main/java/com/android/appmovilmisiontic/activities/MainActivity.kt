@@ -15,12 +15,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         //esta linea sirve para llamar el id del boton y abrir la nueva vista
-        binding.start.setOnClickListener { start() }
+        binding.btnRegistrarse!!.setOnClickListener { registrarse() }
+        binding.btnIniciarSesion!!.setOnClickListener { iniciarSesion() }
 
     }
 
 
-    fun start() {
+    fun registrarse() {
+        val inicio = Intent(this, ActivityRegistro::class.java)
+        startActivity(inicio)
+    }
+
+    fun iniciarSesion(){
         val inicio = Intent(this, LoginActivity::class.java)
         startActivity(inicio)
     }

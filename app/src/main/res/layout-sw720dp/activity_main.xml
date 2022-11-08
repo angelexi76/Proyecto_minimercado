@@ -63,17 +63,30 @@
 
     </LinearLayout>
 
-    <Button
-
-        android:id="@+id/start"
-        android:layout_width="250dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="35dp"
-        android:backgroundTint="@color/beige"
-        android:text="@string/txt_button"
-        android:textColor="@color/orange"
-        android:textSize="30sp" />
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnRegistrarse"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/beige"
+            android:text="@string/txt_iniciar_sesion"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/orange" />
+
+        <Button
+            android:id="@+id/btnIniciarSesion"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/beige"
+            android:text="@string/txt_registrarse"
+            android:textColor="@color/orange" />
+    </LinearLayout>
 
 
 </LinearLayout>
