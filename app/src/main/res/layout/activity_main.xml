@@ -72,7 +72,7 @@
         <Button
             android:id="@+id/btnIniciarSesion"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginEnd="10dp"
             android:backgroundTint="@color/beige"
@@ -82,7 +82,7 @@
         <Button
             android:id="@+id/btnRegistrarse"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:backgroundTint="@color/beige"
             android:text="@string/txt_registrarse"

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.android.appmovilmisiontic.databinding.ActivityMainBinding
 
+
 class MainActivity : AppCompatActivity() {
 
     // esta linea de codigo cirve para llamar la activityMain xml dentro de la clase todos los componentes que hay dentro de esta
