@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.android.appmovilmisiontic.databinding.ActivityLoginBinding
-
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityLoginBinding
@@ -20,4 +19,6 @@ class LoginActivity : AppCompatActivity() {
         val inicio = Intent(this, CatActivity::class.java)
         startActivity(inicio)
     }
+
+
 }

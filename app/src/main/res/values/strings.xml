@@ -14,6 +14,8 @@
     <string name="txv_cat3">Home Care</string>
     <string name="txv_cat4">Dry Beans</string>
     <string name="txt_button3">buy</string>
+    <string name="txt_recibo">Receipt</string>
+    <string name="bttn_pagar">pay</string>
 
 
 </resources>
