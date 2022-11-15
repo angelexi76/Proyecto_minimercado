@@ -20,6 +20,8 @@
     <string name="txt_contrasenaRepeat">Repetir Contraseña</string>
     <string name="txt_registrarse">Registrarse</string>
     <string name="txt_iniciar_sesion">Iniciar Sesion</string>
+    <string name="txt_recibo">Recibo</string>
+    <string name="bttn_pagar">pagar</string>
 
 
 </resources>

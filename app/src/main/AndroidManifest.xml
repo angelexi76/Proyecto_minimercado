@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.android.appmovilmisiontic"/>
-
+    package="com.android.appmovilmisiontic">
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -20,21 +19,6 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-
-        <activity
-            android:name=".activities.fragmento_pago"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-
-        <activity
-            android:name=".activities.ComprasActivity"
-            android:exported="false"/>
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
 
         <activity
             android:name=".activities.ActivityRegistro"
