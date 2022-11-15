@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#FF731D"
+    android:orientation="vertical"
     tools:context=".activities.MainActivity">
 
 
@@ -64,15 +64,31 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/start"
-        android:layout_width="150dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/beige"
-        android:onClick="start"
-        android:text="@string/txt_button"
-        android:textColor="@color/orange" />
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnIniciarSesion"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/beige"
+            android:text="@string/txt_iniciar_sesion"
+            android:textColor="@color/orange" />
+
+        <Button
+            android:id="@+id/btnRegistrarse"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/beige"
+            android:text="@string/txt_registrarse"
+            android:textColor="@color/orange" />
+    </LinearLayout>
 
 
 </LinearLayout>

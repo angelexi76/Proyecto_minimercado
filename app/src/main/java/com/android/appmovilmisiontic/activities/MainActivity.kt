@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.android.appmovilmisiontic.databinding.ActivityMainBinding
 
+
 class MainActivity : AppCompatActivity() {
 
     // esta linea de codigo sirve para llamar la activityMain xml dentro de la clase todos los componentes que hay dentro de esta
@@ -16,12 +17,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         //esta linea sirve para llamar el id del boton y abrir la nueva vista
-        binding.start.setOnClickListener { start() }
+        binding.btnRegistrarse!!.setOnClickListener { registrarse() }
+        binding.btnIniciarSesion!!.setOnClickListener { iniciarSesion() }
 
     }
 
 
-    fun start() {
+    fun registrarse() {
+        val inicio = Intent(this, ActivityRegistro::class.java)
+        startActivity(inicio)
+    }
+
+    fun iniciarSesion(){
         val inicio = Intent(this, LoginActivity::class.java)
         startActivity(inicio)
     }

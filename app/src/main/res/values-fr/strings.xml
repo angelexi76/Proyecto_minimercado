@@ -14,6 +14,13 @@
     <string name="txv_cat3">limpieza</string>
     <string name="txv_cat4">Haricots secs</string>
     <string name="txt_button3">Acheter</string>
+    <string name="txt_nombre">Nom</string>
+    <string name="txt_correo">Courrier</string>
+    <string name="txt_contrasena">Le mot de passe</string>
+    <string name="txt_contrasenaRepeat">Répéter le mot de passe</string>
+    <string name="txt_registrarse">Enregistrement</string>
+    <string name="txt_iniciar_sesion">Section d´accueil</string>
+
 
 
 

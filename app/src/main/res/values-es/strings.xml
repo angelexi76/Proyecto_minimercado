@@ -14,9 +14,12 @@
     <string name="txv_cat3">Cuidado del hogar</string>
     <string name="txv_cat4">Despensa</string>
     <string name="txt_button3">Comprar</string>
-
-
-
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_correo">Correo</string>
+    <string name="txt_contrasena">Contraseña</string>
+    <string name="txt_contrasenaRepeat">Repetir Contraseña</string>
+    <string name="txt_registrarse">Registrarse</string>
+    <string name="txt_iniciar_sesion">Iniciar Sesion</string>
 
 
 </resources>

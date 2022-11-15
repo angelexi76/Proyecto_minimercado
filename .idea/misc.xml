@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Javier/Documents/universidad/U caldas/ciclo 4/Proyecto_minimercado/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Javier/Documents/universidad/U caldas/ciclo 4/Proyecto_minimercado/app/src/main/res/drawable/fondo_forms.xml" value="0.1425" />
+        <entry key="..\:/Users/Javier/Documents/universidad/U caldas/ciclo 4/Proyecto_minimercado/app/src/main/res/layout-land/activity_main.xml" value="0.38828828828828826" />
+        <entry key="..\:/Users/Javier/Documents/universidad/U caldas/ciclo 4/Proyecto_minimercado/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.2931972789115646" />
+        <entry key="..\:/Users/Javier/Documents/universidad/U caldas/ciclo 4/Proyecto_minimercado/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.168359375" />
+        <entry key="..\:/Users/Javier/Documents/universidad/U caldas/ciclo 4/Proyecto_minimercado/app/src/main/res/layout/activity_cat.xml" value="0.1" />
+        <entry key="..\:/Users/Javier/Documents/universidad/U caldas/ciclo 4/Proyecto_minimercado/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Javier/Documents/universidad/U caldas/ciclo 4/Proyecto_minimercado/app/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/Javier/Documents/universidad/U caldas/ciclo 4/Proyecto_minimercado/app/src/main/res/layout/activity_registro.xml" value="0.1" />
       </map>
     </option>
   </component>

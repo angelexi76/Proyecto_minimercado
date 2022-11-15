@@ -16,6 +16,11 @@
     <string name="txt_button3">buy</string>
     <string name="txt_recibo">Receipt</string>
     <string name="bttn_pagar">pay</string>
-
+    <string name="txt_nombre">Name</string>
+    <string name="txt_correo">Mail</string>
+    <string name="txt_contrasena">Password</string>
+    <string name="txt_contrasenaRepeat">Repeat Password</string>
+    <string name="txt_registrarse">Check in</string>
+    <string name="txt_iniciar_sesion">Start section</string>
 
 </resources>
