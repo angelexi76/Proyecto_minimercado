@@ -19,8 +19,15 @@ class CatActivity : AppCompatActivity() {
         setContentView(binding.root)
         setSupportActionBar(findViewById(R.id.mi_barra))
 
+        binding.verMapa.setOnClickListener { verMapa() }
     }
-    override fun onCreateOptionsMenu(menu: Menu?):Boolean {
+
+    fun verMapa(){
+        val mapa = Intent(this, MapaActivity::class.java)
+        startActivity(mapa)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.tool_bar,menu)
         return super.onCreateOptionsMenu(menu)
     }

@@ -117,14 +117,15 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/log"
-        android:layout_width="230dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/verMapa"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="5dp"
         android:backgroundTint="@color/beige"
-        android:text="@string/txt_button3"
-        android:textColor="@color/orange" />
+        android:text="Ver en el mapa"
+        android:textColor="@color/orange"
+        android:textSize="10sp" />
 
 </LinearLayout>
 

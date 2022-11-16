@@ -54,7 +54,7 @@ class LoginActivity : AppCompatActivity() {
             var password: String
             if (cursor.moveToFirst()) {
                  do {
-                    id = cursor.getInt(0)
+                    //id = cursor.getInt(0)
                     nombreEncontrado = cursor.getString(1).toString()
                     password = cursor.getString(2).toString()
                 } while (cursor.moveToNext())

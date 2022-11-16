@@ -22,6 +22,7 @@
     <string name="txt_iniciar_sesion">Iniciar Sesion</string>
     <string name="txt_recibo">Recibo</string>
     <string name="bttn_pagar">pagar</string>
+    <string name="value_map">AIzaSyBR_0katflK0bUCPbtoCHXvWF8ja1dmxVE</string>
 
 
 </resources>

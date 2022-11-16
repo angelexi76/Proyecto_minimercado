@@ -22,5 +22,8 @@
     <string name="txt_contrasenaRepeat">Repeat Password</string>
     <string name="txt_registrarse">Check in</string>
     <string name="txt_iniciar_sesion">Start section</string>
+    <string name="value_map">AIzaSyBR_0katflK0bUCPbtoCHXvWF8ja1dmxVE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
